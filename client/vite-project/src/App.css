@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://th.bing.com/th/id/OIP.JVUqP_t2d-BnxkELQTks2AHaEo?w=251&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'); /* Your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+.header {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: auto;
+}
+
+.city-select {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.fetch-btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF; /* Bootstrap primary color */
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.fetch-btn:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+.weather-info {
+  margin-top: 20px;
+}
