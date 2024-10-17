@@ -17,7 +17,6 @@ Additionally, we will implement React hooks, specifically useState and useEffect
 Getting Started
 Prerequisites
 Make sure you have the following installed:
-
 Node.js (v14 or later)
 npm (comes with Node.js)
 
